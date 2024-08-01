@@ -1,7 +1,7 @@
 [global]
-  frame_width = 1
-  frame_color = "#FFFFFF"
-  font = MonoLisa Regular 11
+  frame_width = 2
+  frame_color = "#16161D"
+  font = ProFont IIX Nerd Font 12
   markup = yes
   format = "%s %p\n%b"
   sort = yes
@@ -11,34 +11,35 @@
   word_wrap = no
   ignore_newline = no
   shrink = yes
-  transparency = 15
+  transparency = 0
   idle_threshold = 120 
   monitor = 0
   follow = mouse
   sticky_history = yes
   history_length = 20
   show_indicators = yes
-  line_height = 0
+  line_height = 1
   separator_height = 1
-  padding = 8
-  horizontal_padding = 10
-  separator_color = #FFD16F
-  dmenu = /usr/bin/dmenu -p dunst:
-  browser = palemoon
+  padding = 15
+  horizontal_padding = 15
+  background = "#1F1F28"
+  foreground = "#DCD7BA"
+  separator_color = "#7E9CD8"
+  browser = brave
   icon_position = left
-  icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
+  icon_path = /usr/share/icons/Surfn/16/status/:/usr/share/icons/Surfn/16/devices/
 
 [urgency_low]
-  background = "#1F1626"
-  foreground = "#FFFFFF"
+  background = "#1F1F28"
+  foreground = "#DCD7BA"
   timeout = 10
 
 [urgency_normal]
-  background = "#1F1626"
-  foreground = "#FFFFFF"
+  background = "#1F1F28"
+  foreground = "#DCD7BA"
   timeout = 10
 
 [urgency_critical]
-  background = "#FF5250"
-  foreground = "#FFFFFF"
+  background = "#1F1F28"
+  foreground = "#DCD7BA"
   timeout = 0
