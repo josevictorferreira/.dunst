@@ -27,7 +27,7 @@
   separator_color = "#7E9CD8"
   browser = brave
   icon_position = left
-  icon_path = /usr/share/icons/Surfn/16/status/:/usr/share/icons/Surfn/16/devices/
+  icon_path = /usr/share/icons/Kanagawa/status/22/:/usr/share/icons/Kanagawa/devices/16/
 
 [urgency_low]
   background = "#1F1F28"
